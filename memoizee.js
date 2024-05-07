@@ -3,10 +3,10 @@ import memoizeeImpl from "memoizee";
 
 const memoizeeWithReset = (fn, ...opts) => {
   let ret;
-  const newFn = (...args) => {
+  function newFn(...args) {
     resets.add(ret);
-    return fn(...args);
-  };
+    return fn.apply(this, args);
+  }
   Object.defineProperty(newFn, "length", { value: fn.length });
   ret = memoizeeImpl(newFn, ...opts);
   return ret;

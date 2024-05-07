@@ -10,7 +10,7 @@
   "license": "MIT",
   "author": "Leonardo Guarnieri de Bastiani <leogbastiani@gmail.com> (https://github.com/leobastiani)",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test nonProd.test.js && NODE_ENV=production node --test prod.test.js"
   },
   "files": [
     "index.js",
