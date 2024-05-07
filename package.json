@@ -1,7 +1,7 @@
 {
   "name": "@leobastiani/memoizee",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "memoizee with reset function",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "index.d.ts"
   ],
   "exports": "./index.js",
-  "module": "index.ts",
+  "module": "index.js",
   "sideEffects": false,
   "type": "module",
   "keywords": [
