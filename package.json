@@ -1,0 +1,57 @@
+{
+  "name": "@leobastiani/memoizee",
+  "private": false,
+  "version": "0.0.1-wip01",
+  "description": "memoizee with reset function",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leobastiani/memoizee.git"
+  },
+  "license": "MIT",
+  "author": "Leonardo Guarnieri de Bastiani <leogbastiani@gmail.com> (https://github.com/leobastiani)",
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "index.js",
+    "memoizee.js",
+    "reset.js",
+    "index.d.ts"
+  ],
+  "exports": "./index.js",
+  "module": "index.ts",
+  "sideEffects": false,
+  "type": "module",
+  "keywords": [
+    "memoize",
+    "memoizer",
+    "cache",
+    "memoization",
+    "memo",
+    "memcached",
+    "hashing.",
+    "storage",
+    "caching",
+    "memory",
+    "gc",
+    "weak",
+    "garbage",
+    "collector",
+    "async"
+  ],
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/leobastiani/memoizee/issues"
+  },
+  "homepage": "https://github.com/leobastiani/memoizee#readme",
+  "main": "index.js",
+  "peerDependencies": {
+    "@types/memoizee": "*",
+    "memoizee": "*"
+  },
+  "devDependencies": {
+    "@types/memoizee": "^0.4.11",
+    "@types/node": "^20.12.10",
+    "memoizee": "^0.4.15"
+  }
+}
