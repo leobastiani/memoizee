@@ -1,7 +1,7 @@
 {
   "name": "@leobastiani/memoizee",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "memoizee with reset function",
   "repository": {
     "type": "git",
