@@ -1,5 +1,5 @@
-# once
+# @leobastiani/memoizee
 
-execute a function only once and cache but it has a reset function for testing
+like [memoizee](https://www.npmjs.com/package/memoizee) but you can reset
 
 See examples at [nonProd.test.js](nonProd.test.js) and [prod.test.js](prod.test.js)
